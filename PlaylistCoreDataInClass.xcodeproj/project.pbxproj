@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		7C9D3DD422BA9D5500B038AE /* PlaylistListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D3DD322BA9D5500B038AE /* PlaylistListTableViewController.swift */; };
 		7C9D3DD622BA9E7800B038AE /* SongListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D3DD522BA9E7800B038AE /* SongListTableViewController.swift */; };
+		7C9D3DD922BAA34D00B038AE /* Playlist+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D3DD822BAA34D00B038AE /* Playlist+Convenience.swift */; };
+		7C9D3DDB22BAA36B00B038AE /* Songs+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D3DDA22BAA36B00B038AE /* Songs+Convenience.swift */; };
+		7C9D3DDD22BAA46000B038AE /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D3DDC22BAA46000B038AE /* CoreDataStack.swift */; };
 		7CEE350022BA983A00D649A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE34FF22BA983A00D649A9 /* AppDelegate.swift */; };
 		7CEE350522BA983A00D649A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CEE350322BA983A00D649A9 /* Main.storyboard */; };
 		7CEE350822BA983A00D649A9 /* PlaylistCoreDataInClass.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE350622BA983A00D649A9 /* PlaylistCoreDataInClass.xcdatamodeld */; };
@@ -19,6 +22,9 @@
 /* Begin PBXFileReference section */
 		7C9D3DD322BA9D5500B038AE /* PlaylistListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistListTableViewController.swift; sourceTree = "<group>"; };
 		7C9D3DD522BA9E7800B038AE /* SongListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListTableViewController.swift; sourceTree = "<group>"; };
+		7C9D3DD822BAA34D00B038AE /* Playlist+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Playlist+Convenience.swift"; sourceTree = "<group>"; };
+		7C9D3DDA22BAA36B00B038AE /* Songs+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Songs+Convenience.swift"; sourceTree = "<group>"; };
+		7C9D3DDC22BAA46000B038AE /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		7CEE34FC22BA983A00D649A9 /* PlaylistCoreDataInClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaylistCoreDataInClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CEE34FF22BA983A00D649A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CEE350422BA983A00D649A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -79,6 +85,9 @@
 			isa = PBXGroup;
 			children = (
 				7CEE350622BA983A00D649A9 /* PlaylistCoreDataInClass.xcdatamodeld */,
+				7C9D3DD822BAA34D00B038AE /* Playlist+Convenience.swift */,
+				7C9D3DDC22BAA46000B038AE /* CoreDataStack.swift */,
+				7C9D3DDA22BAA36B00B038AE /* Songs+Convenience.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -173,7 +182,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9D3DDD22BAA46000B038AE /* CoreDataStack.swift in Sources */,
 				7C9D3DD422BA9D5500B038AE /* PlaylistListTableViewController.swift in Sources */,
+				7C9D3DD922BAA34D00B038AE /* Playlist+Convenience.swift in Sources */,
+				7C9D3DDB22BAA36B00B038AE /* Songs+Convenience.swift in Sources */,
 				7CEE350822BA983A00D649A9 /* PlaylistCoreDataInClass.xcdatamodeld in Sources */,
 				7C9D3DD622BA9E7800B038AE /* SongListTableViewController.swift in Sources */,
 				7CEE350022BA983A00D649A9 /* AppDelegate.swift in Sources */,
